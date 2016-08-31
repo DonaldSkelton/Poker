@@ -96,5 +96,5 @@ def main():                                  # pragma: no cover
     best=evaluateHand(myHand)
     print('The best hand you can call here is:  '+best)
 
-if __name__=='__main__':
+if __name__=='__main__': # pragma: no cover
     main()
