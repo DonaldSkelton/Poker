@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/DonaldSkelton/Poker.svg?branch=master)](https://travis-ci.org/DonaldSkelton/Poker)
+[![Build Status](https://travis-ci.org/DonaldSkelton/Poker.svg?branch=master)](https://travis-ci.org/DonaldSkelton/Poker)  [![codecov](https://codecov.io/gh/DonaldSkelton/Poker/branch/master/graph/badge.svg)](https://codecov.io/gh/DonaldSkelton/Poker)
