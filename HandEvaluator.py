@@ -78,7 +78,7 @@ def evaluateHand(hand:list):             #"hand" should be a list containing 5 n
     #print('The best hand you can call here is:  '+bestHand)
     return bestHand
 
-def main():                                  #wrap main line program in function so HandEvaluator can be imported as module
+def main():                                  # pragma: no cover
     deck = PokerDeck()                       #Generate a deck of cards
     shuffle(deck)                            #Shuffle the deck
     myHand=dealHand(deck,5)                  #Deal a hand of 5 cards
