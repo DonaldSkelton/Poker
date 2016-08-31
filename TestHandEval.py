@@ -1,9 +1,14 @@
 import unittest
 from pokerdeck import *
-from HandEvaluator import evaluateHand
+from HandEvaluator import evaluateHand, dealHand
 
 
 class TestHandEval(unittest.TestCase):
+    def testDealHand(self):
+        deck = PokerDeck()
+        myHand = dealHand(deck, 5)
+        self.assertEqual(5, len(myHand))
+        self.assertEqual(47, len(deck))
     def testHighCard(self):
         myHand=[Card(rank='10', suit='♠'),Card(rank='8', suit='♠'),
         Card(rank='3', suit='♠'),Card(rank='J', suit='♠'),Card(rank='5', suit='♦')]
